@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar-css */
+.navbar-pd li{
+    padding-left: 20px;
+}
+.navbar-nav li a{
+    color: black;
+    font-weight: 600!important;
+}
+.navbar-pd li .header-btn-one{
+    color: rgb(117, 13, 117);
+    border-color: rgb(117, 13, 117);
+}
+.navbar-pd li .header-btn-two{
+    color: rgb(255, 249, 255);
+    background-color: rgb(117, 13, 117);
+    border-color: rgb(117, 13, 117);
+}
+.better-first-div h1{
+    font-weight: 800;
+}
+.better-btns button{
+    padding: 15px;
+}
+.better-btn-1{
+    color: rgb(117, 13, 117)!important;
+    border-color: rgb(117, 13, 117)!important;
+}
+.better-btn-2{
+    margin-left: 10px;
+    color: rgb(255, 249, 255)!important;
+    background-color: rgb(117, 13, 117)!important;
+    border-color: rgb(117, 13, 117)!important;
+}
+
+@media only screen and (max-width: 992px){
+    .navbar-pd li{
+        padding-top: 10px;
+        padding-left: 0;
+    }
+}
