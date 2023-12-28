@@ -19,6 +19,7 @@
     background-color: rgb(117, 13, 117);
     border-color: rgb(117, 13, 117);
 }
+/* ----------------better-section--------------------------------------------------------------- */
 .better-first-div h1{
     font-weight: 800;
 }
@@ -35,10 +36,32 @@
     background-color: rgb(117, 13, 117)!important;
     border-color: rgb(117, 13, 117)!important;
 }
+/* ------Connect section----------------------------------------------------------------------- */
+.connect{
+    background-color: #f4ede4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 992px){
     .navbar-pd li{
         padding-top: 10px;
         padding-left: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+    .better-first-div h1{
+        font-size: x-large!important;
     }
 }
