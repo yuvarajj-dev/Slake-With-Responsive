@@ -49,6 +49,16 @@
     font-size: larger;
     margin-top: 20px;
 }
+/* ------Outside-section----------------------------------------------------------------------- */
+.outside-first-div h1{
+    font-weight: 800;
+} 
+.outside-first-div ul li{
+    margin-top: 2rem;
+}  
+.outside-first-div p a{
+    text-decoration: none;
+}
 
 
 
