@@ -39,8 +39,16 @@
 /* ------Connect section----------------------------------------------------------------------- */
 .connect{
     background-color: #f4ede4;
+    margin-top: 8%;
 }
-
+.connect-heading-div{
+    padding-top: 5%;
+    text-align: center;
+}
+.connect-heading-div p{
+    font-size: larger;
+    margin-top: 20px;
+}
 
 
 
@@ -60,8 +68,29 @@
         padding-left: 0;
     }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 750px){
+    .connect-4x h4,.connect-64 h4,.connect-2x h4{
+        font-size: large;
+    }
+}
+@media only screen and (max-width: 575px){
     .better-first-div h1{
-        font-size: x-large!important;
+        font-size: x-large;
+    }
+    .connect-card-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .connect-heading-div h1{
+        font-size: x-large;
+    }
+    .connect-2x,.connect-4x,.connect-64{
+        margin: 1rem 0 1rem 0;
+    }
+    .connect-4x h4,.connect-64 h4,.connect-2x h4{
+        font-size: small;
+    }
+    .connect-bottom h5{
+        font-size: medium;
     }
 }
