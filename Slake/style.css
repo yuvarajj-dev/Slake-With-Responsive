@@ -60,6 +60,14 @@
     text-decoration: none;
 }
 
+/* ------Started-section----------------------------------------------------------------------- */
+.Started-heading-div h1{
+    font-weight: 700!important;
+}
+.Started-heading-div p{
+    font-size: x-large;
+    padding-top: 1rem;
+}
 
 
 
@@ -70,19 +78,38 @@
 
 
 
-
-
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 1024px){
     .navbar-pd li{
         padding-top: 10px;
         padding-left: 0;
     }
 }
-@media only screen and (max-width: 750px){
+ 
+@media only screen and (max-width: 768px){
     .connect-4x h4,.connect-64 h4,.connect-2x h4{
         font-size: large;
     }
+    .outside-first-div{
+        text-align: justify;
+    }
+    .outside-first-div h1,p{
+        text-align: center;
+    }
+    .start-card{
+        text-align: center;
+    }
+    .start-card h2{
+        font-size: x-large;
+    }
+    .start-card p{
+        font-size: small;
+    }
+    .outside-section{
+        display: none;
+    }
+    
 }
+
 @media only screen and (max-width: 575px){
     .better-first-div h1{
         font-size: x-large;
@@ -102,5 +129,11 @@
     }
     .connect-bottom h5{
         font-size: medium;
+    }
+    .outside-section{
+        display: none;
+    }
+    .start-card{
+        text-align: center;
     }
 }
