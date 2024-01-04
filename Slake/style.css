@@ -68,8 +68,19 @@
     font-size: x-large;
     padding-top: 1rem;
 }
-
-
+/* ------Role-section----------------------------------------------------------------------- */
+.role-section{
+    background-color: #f4ede4;
+}
+.role-heading-div{
+    padding-top: 20%;
+}
+.role-card-section{
+    background-color: white;
+}
+.role-card-section .arrow-img{
+    padding-left: 80%;
+}
 
 
 

@@ -1,49 +1,4 @@
 
-Get more done in slack Connect
-Whether you're working with vendors or sealing deals with a client, Slack Connect is here to help.
-
-4x
-faster deal cycles for a sales team
-
-64%
-decrease in backlog tickets for a customer support team
-
-2x
-faster close in company acquisition for a business development team
-
-Claims and figures based on specific teams using Slack Connect at their companies. Results may vary at your organisation.
-
-Connect securely with outside organisations
-
-Keep your work secure with Slack's enterprise-grade security features and compliance standards
-
-
-Gain secure access to communicate and collaborate confidently with partner organisations
-
-
-Reduce your team's exposure to the email phishing and spam attacks that come with email
-
-Learn more about Slack's enterprise-grade security
-
-How to get started
-It only takes a few clicks to start working closely with vendors, customers and more
-
-
-1. Create the channel
-Click the + button next to Channels in your sidebar. Name the channel, and click Create.
-
-
-2. Send the invite
-Invite your partner right from Slack. If you're on the Business+ or Enterprise Grid subscription, you can also copy and share the link provided.
-
-
-3. Wait for your partner
-After they click on the link, they'll be taken back to Slack to accept and set up the channel on their end.
-
-
-4. Get admin approval
-Depending on your settings, the invitation may be sent to an admin on each team for approval.
-
 Built for roles of all types
 Slack Connect allows you to build deeper relationships with all the people that you work with, no matter the profession.
 
