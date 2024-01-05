@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ----------------header or navbar------------------ */
+.logo{
+    width: 40%;
+}
+.navbar-toggler{
+    border: none!important;
+    box-shadow: none!important;
+}
+
+@media only screen and (max-width: 576px){
+    /* --------------------navbar--------------- */
+    .logo{
+        width: 40%;
+    }
+    .navbar-div{
+        display: flex;
+    }
+    .search-and-icon-div{
+        display: flex;
+        justify-content: center;
+    }
+    .search-icon{
+        margin-left: 30px;
+        align-self: center;
+        width: 2rem;
+    }
+    .bi-search{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .offcanvas-body ul li{
+        padding-top: 10px;
+        font-size: smaller!important;
+    }
+    .offcanvas-body .btn-header button{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .btn-outline-success{
+        border-color: #400d40!important;
+        color: #400d40!important;
+    }
+    .btn-primary{
+        background-color: #400d40!important;
+        border-color: #400d40!important;
+    }
+
+}
