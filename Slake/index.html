@@ -9,85 +9,89 @@
     <link rel="stylesheet" href="./style.css">
     <!-- Bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Bootstrap icons link -->    
+    <!-- Bootstrap icons link -->
 </head>
-<body>    
+<body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-light">
-            <div class="container-fluid">
-               <div class="navbar-div">
-                    <div class="logo-div">
-                        <a class="navbar-brand" href="#">
-                            <img src="./Resource/rsz_slack_rgb.png" alt="logo" class="logo">
-                        </a>
-                    </div>
-                    <div class="search-and-icon-div">
-                        <div class="search-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                            </svg>
-                        </div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-               </div>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                  <div class="offcanvas-header">
-                    <img src="./Resource/rsz_slack_rgb.png" alt="logo" class="offcanvas-title logo" id="offcanvasRightLabel">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-                  <div class="offcanvas-body">
-                        <ul class="list-unstyled">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid container-lg ">
+              <a class="navbar-brand" href="#"><img src="./Resource/rsz_slack_rgb.png" alt="logo" class="Logo"></a>
+              <div>
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="m18.78 17.72c.1467.1467.22.3233.22.53 0 .2133-.0733.39-.22.53-.16.1467-.3367.22-.53.22-.2067 0-.3833-.0733-.53-.22l-4.47-4.47c-.6667.54-1.4067.9567-2.22 1.25-.8067.2933-1.65.44-2.53.44-1.36 0-2.61333-.3367-3.76-1.01s-2.05667-1.5833-2.73-2.73-1.01-2.4-1.01-3.76.33667-2.61333 1.01-3.76 1.58333-2.05667 2.73-2.73 2.4-1.01 3.76-1.01 2.6133.33667 3.76 1.01 2.0567 1.58333 2.73 2.73 1.01 2.4 1.01 3.76c0 .88-.1467 1.7267-.44 2.54-.2933.8067-.71 1.5433-1.25 2.21zm-10.28-3.22c1.08667 0 2.0867-.27 3-.81.92-.54 1.65-1.2667 2.19-2.18.54-.92.81-1.92333.81-3.01s-.27-2.08667-.81-3c-.54-.92-1.27-1.65-2.19-2.19-.9133-.54-1.91333-.81-3-.81s-2.09.27-3.01.81c-.91333.54-1.64 1.27-2.18 2.19-.54.91333-.81 1.91333-.81 3s.27 2.09.81 3.01c.54.9133 1.26667 1.64 2.18 2.18.92.54 1.92333.81 3.01.81z" stroke="#000" stroke-width=".5"></path></svg>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="header-list-div">
+                        <ul class="list-unstyled ">
+                            <li><a class="nav-link active" aria-current="page" href="#"><div>
+                                <h5>Features</h5>
+                                <p><strong>></strong></p>
+                            </div></a></li>
                             <li>
-                                <div class="d-flex justify-content-between">
-                                    <h4>Feature</h4>
-                                    <h3><strong>></strong></h3>
-                                </div>
+                                <a class="nav-link" href="#"><div>
+                                    <h5>Solutions</h5>
+                                    <p><strong>></strong></p>
+                              </div></a>
                             </li>
                             <li>
-                                <div class="d-flex justify-content-between">
-                                    <h4>Solutions</h4>
-                                    <h3><strong>></strong></h3>
-                                </div>
+                                <a class="nav-link" href="#"><div>
+                                    <h5>Enterprise</h5>
+                              </div></a>
                             </li>
                             <li>
-                                <div class="d-flex justify-content-between">
-                                    <h4>Enterprise</h4>
-                                </div>
+                                <a class="nav-link" href="#"><div>
+                                    <h5>Resources</h5>
+                                    <p><strong>></strong></p>
+                              </div></a>
                             </li>
                             <li>
-                                <div class="d-flex justify-content-between">
-                                    <h4>Resource</h4>
-                                    <h3><strong>></strong></h3>
-                                </div>
+                                <a class="nav-link" href="#"><div>
+                                    <h5>Pricing</h5>
+                              </div></a>
                             </li>
                             <li>
-                                <div class="d-flex justify-content-between">
-                                    <h4>Pricing</h4>
-                                </div>
+                                <a class="nav-link" href="#"><div>
+                                    <h5>Watch demo</h5>
+                                    <p><strong>></strong></p>
+                              </div></a>
                             </li>
                             <li>
-                                <div class="d-flex justify-content-between">
-                                    <h4>Watch Demo</h4>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex justify-content-between">
-                                    <h4>Sign in</h4>
-                                </div>
+                                <a class="nav-link" href="#"><div>
+                                    <h5>Sign in</h5>
+                              </div></a>
                             </li>
                         </ul>
-                        <div class="btn-header w-100">
-                            <button class="btn btn-outline-success ">TALK TO SALES</button>
-                            <button class="btn btn-primary">DOWNLOAD SLACK</button>
-                        </div>
+                    </div>
+                  <div class="header-buttons">
+                    <button class="btn btn-outline-primary ">TALK TO SALES</button>
+                    <button class="btn btn-primary ">DOWNLOAD SLAKE</button>
                   </div>
                 </div>
+              </div>
             </div>
-            
           </nav>
     </header>
+<!-- ----------------------------------------Slake-Section-------------------------------------------------------------- -->
+    <section class="slake-main-section">
+        <div class="container">
+            <div class="row">
+                <div class="slake-heading-div">
+                    <p>SLACK CONNECT</p>
+                    <h3>A better way to work with people outside your company</h3>
+                    <p>Slack Connect transforms the way you work alongside your partners, vendors or customers by moving conversations out of siloed email threads and into the same place.</p>
+                    <div>
+                        <button class="btn btn-outline-primary ">TALK TO SALES</button>
+                        <button class="btn btn-primary ">DOWNLOAD SLAKE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- javascript link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

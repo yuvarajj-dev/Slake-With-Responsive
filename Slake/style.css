@@ -2,52 +2,114 @@
     margin: 0;
     padding: 0;
 }
-/* ----------------header or navbar------------------ */
-.logo{
-    width: 40%;
-}
+/* ---------------header--------- */
 .navbar-toggler{
     border: none!important;
     box-shadow: none!important;
 }
+.btn-outline-primary{
+    border-color: #611f69!important;
+    color: #611f69!important;
+}
+.btn-outline-primary:hover{
+    background-color: #ffffff!important;
+}
+.btn-primary{
+    background-color: #611f69!important;
+    color: white!important;
+    border-color: #611f69!important;
+}
 
-@media only screen and (max-width: 576px){
-    /* --------------------navbar--------------- */
-    .logo{
-        width: 40%;
+@media only screen and (max-width: 568px) {
+    .Logo{
+        width: 100px;
     }
-    .navbar-div{
+    .nav-link div{
         display: flex;
+        justify-content: space-between;
     }
-    .search-and-icon-div{
-        display: flex;
-        justify-content: center;
+    .nav-link div p{
+        font-weight: 600;
     }
-    .search-icon{
-        margin-left: 30px;
-        align-self: center;
-        width: 2rem;
-    }
-    .bi-search{
-        height: 1.5rem;
-        width: 1.5rem;
-    }
-
-    .offcanvas-body ul li{
-        padding-top: 10px;
-        font-size: smaller!important;
-    }
-    .offcanvas-body .btn-header button{
-        margin-top: 10px;
+    .header-buttons  button{
+        display: block;
         width: 100%;
+        margin-top: 10px;
     }
-    .btn-outline-success{
-        border-color: #400d40!important;
-        color: #400d40!important;
+    .slake-main-section{
+        padding-top: 15%;
     }
-    .btn-primary{
-        background-color: #400d40!important;
-        border-color: #400d40!important;
+    .slake-heading-div p:first-child{
+        font-size: large;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .slake-heading-div h3{
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .slake-heading-div p:last-child{
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width: 569px) and (max-width: 768px) {
+    .Logo{
+        width: 100px;
+    }
+    .nav-link div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-link div p{
+        font-weight: 600;
+    }
+    .header-buttons  button{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
     }
 
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .Logo{
+        width: 100px;
+    }
+    .nav-link div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-link div p{
+        font-weight: 600;
+    }
+    .header-buttons  button{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+@media only screen and (min-width: 993px) and  (max-width: 1920px){
+    .Logo{
+        width: 200px;
+    }
+    .header-list-div{
+        padding-top: 20px;
+    }
+    header ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center!important;
+    }
+    header ul li a div p{
+        display: none;
+    }
+    header ul li a div h5{
+        font-size: medium;
+    }
+    header svg{
+        display: none;
+    }
+    .header-buttons{
+        align-self: center;
+    }
 }
