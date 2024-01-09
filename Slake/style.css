@@ -20,6 +20,34 @@
     border-color: #611f69!important;
 }
 
+/* --connect-section-- */
+.connect-section{
+    background-color: #f4ede4!important;
+    padding: 30px 0 30px 0;
+}
+.connect-head-div h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.connect-head-div p{
+    font-size: large;
+    font-weight: 500;
+    color: #696969;
+}
+.connect-text h1{
+    font-size: 45px;
+}
+.connect-text h1 span{
+    font-size: 70px;
+}
+.connect-text p{
+    font-size: medium;
+    font-weight: 600;
+}
+.connect-footer p{
+    color: #696969;
+}
+
 @media only screen and (max-width: 568px) {
     .Logo{
         width: 100px;
@@ -37,7 +65,7 @@
         margin-top: 10px;
     }
     .slake-main-section{
-        padding-top: 15%;
+        display: none;
     }
     .slake-heading-div p:first-child{
         font-size: large;
@@ -45,50 +73,114 @@
         margin-bottom: 0;
     }
     .slake-heading-div h3{
-        font-size: 27px;
+        font-size: 35px;
+        font-weight: 800;
+    }
+    .slake-heading-div .last-chi{
+        font-weight: 500;
+        text-align: justify;
+        font-size: small;
+    }
+    .slake-main-sec-for-mob{
+        padding-top: 5%;
+    }
+    .slake-heading-btn-div button{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+
+    }
+}
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+    .Logo{
+        width: 100px;
+    }
+    .nav-link div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-link div p{
+        font-weight: 600;
+    }
+    .header-buttons  button{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* --slake-section-- */
+    .slake-main-section{
+        display: none;
+    }
+    .slake-heading-div p:first-child{
+        font-size: large;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .slake-heading-div h3{
+        font-size: 35px;
+        font-weight: 800;
+    }
+    .slake-heading-div .last-chi{
+        font-weight: 500;
+        text-align: justify;
+        font-size: small;
+    }
+    .slake-main-sec-for-mob{
+        padding-top: 5%;
+    }
+    .slake-heading-btn-div button{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    /* --connect-section-- */
+    .connect-text{
+        width: 100%!important;
+    }
+}   
+@media only screen and (min-width: 767px) and (max-width: 1199px) {
+    .Logo{
+        width: 100px;
+    }
+    .nav-link div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-link div p{
+        font-weight: 600;
+    }
+    .header-buttons  button{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* slaek-sec */
+    .slake-main-sec-for-mob{display: none;}
+    .slake-heading-div p:first-child{
+        margin-bottom: 0;
+    }
+    .slake-heading-div h3{
+        font-size: calc(2rem + (18 * (100vw - 400px)/ 624));;
         font-weight: 700;
     }
-    .slake-heading-div p:last-child{
-        font-weight: 600;
-    }
-}
-@media only screen and (min-width: 569px) and (max-width: 768px) {
-    .Logo{
-        width: 100px;
-    }
-    .nav-link div{
-        display: flex;
-        justify-content: space-between;
-    }
-    .nav-link div p{
-        font-weight: 600;
-    }
-    .header-buttons  button{
-        display: block;
+    .slake-heading-btn-div button{
         width: 100%;
         margin-top: 10px;
+        padding: 15px;
+        font-weight: 800;
+    }
+    .slake-img-div{
+        padding-top: 20%;
+    }
+    /* --connect-section-- */
+    .connect-text{
+        width: 25%!important;
     }
 
-}
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-    .Logo{
-        width: 100px;
-    }
-    .nav-link div{
-        display: flex;
-        justify-content: space-between;
-    }
-    .nav-link div p{
-        font-weight: 600;
-    }
-    .header-buttons  button{
-        display: block;
-        width: 100%;
-        margin-top: 10px;
-    }
+    
 
 }
-@media only screen and (min-width: 993px) and  (max-width: 1920px){
+@media only screen and (min-width: 1200px) and  (max-width: 1920px){
     .Logo{
         width: 200px;
     }
@@ -111,5 +203,42 @@
     }
     .header-buttons{
         align-self: center;
+    }
+    .w-d{display: none;}
+    .sign-in::after{
+        content: url(./Resource/icon/search.svg);
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        left: 62%;
+    }
+    .sign-in{
+        margin-left: 100px;
+    }
+    /* --slake-section-- */
+    .slake-main-sec-for-mob{display: none;}
+    .slake-heading-div p:first-child{
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: larger;
+    }
+    .slake-heading-div h3{
+        font-size: calc(1rem + (18 * (100vw - 400px)/ 624));;
+        font-weight: 700;
+    }
+    .slake-heading-btn-div   button{
+        padding: 20px;
+        width: 40%;
+        font-size: medium;
+        font-weight: 600;
+    }
+    .last-chi{
+        font-weight: 500;
+        width: 75%;
+        font-size: large;
+    }
+    /* --connect-section-- */
+    .connect-text{
+        width: 25%!important;
     }
 }
