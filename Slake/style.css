@@ -24,7 +24,8 @@
 /* --connect-section-- */
 .connect-section{
     background-color: #f4ede4!important;
-    padding: 30px 0 30px 0;
+    margin: 5rem 0 5rem 0;
+    padding: 5rem 0 5rem 0;
 }
 .connect-head-div h1{
     font-size: 35px;
@@ -50,10 +51,10 @@
 }
 /* --------faster-sec----- */
 .faster-mobile-section{
-    margin: 30px 0 30px 0;
+    margin: 5rem 0 5rem 0;
 }
 .faster-pc-section{
-    margin: 30px 0 30px 0;
+    margin: 5rem 0 5rem 0;
 }
 .faster-heading-sec{
     margin-bottom: 2.5rem;
@@ -169,6 +170,99 @@
     font-weight: 200;
     color: rgb(226, 221, 221);
 }
+/* -----------Secure-Secion--------------------------- */
+.secure-section{
+    margin: 5rem 0 5rem 0;
+}
+.secure-head-sec h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.secure-list-sec div p{
+    font-size: large;
+    font-weight: 600;
+}
+.secure-text-div{
+    padding: 2rem 0 2rem 0;
+}
+.secure-text-div a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+.secure-img-sec{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+}
+/* -----------------Started-Section--------------- */
+.start-section{
+    margin: 5rem 0 5rem 0;
+}
+.start-heading-sec{
+    text-align: center;
+}
+.start-heading-sec h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.start-heading-sec p{
+    font-size: large;
+    font-weight: 600;
+}
+.start-col-div{
+    margin: 2rem 0 2rem 0 !important;
+}
+.start-div{
+    margin: 2rem 0 1rem 0;
+}
+.start-div img{
+    width: 50px!important;
+    height: 50px!important;
+}
+.start-div p:nth-child(2) {
+    font-size: large;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.start-div p:nth-child(3) {
+    font-size: medium;
+    font-weight: 500;
+}
+/* ------------------Build-secion------------- */
+.build-section{
+    background-color: #f4ede4;
+    padding: 5rem 0 5rem 0;
+}
+.bulid-heaidng-sec h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.bulid-heaidng-sec p{
+    font-size: large;
+    font-weight: 600;
+}
+.build-sales{
+    background-color: white;
+    padding: 10px 0 7rem 10px;
+    margin: 1rem 0 1rem 0;
+    position: relative;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1)
+}
+.build-sales p{
+    font-size: large;
+    font-weight: 600;
+    line-height: 20px;
+}
+.build-arrow-div{
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    right: 0;
+}
+.build-arrow-div img{
+    width: 30px;
+    height: 30px;
+}
 
 @media only screen and (max-width: 568px) {
     .Logo{
@@ -215,6 +309,9 @@
         display: none;
     }
     .faster-pc-section{
+        display: none;
+    }
+    .secure-pc{
         display: none;
     }
 }
@@ -290,9 +387,12 @@
     .faster-pc-section{
         display: none;
     }
+    .secure-pc{
+        display: none;
+    }
 }  
 
-@media only screen and (min-width: 767px) and (max-width: 1199px) {
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
     .Logo{
         width: 100px;
     }
@@ -330,9 +430,21 @@
     .connect-text{
         width: 25%!important;
     }
+    .connect-head-div h1{
+        font-size: calc(1.5rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
+    }
     .faster-pc-section{
         display: none;
     }
+    .faster-heading-sec h1{
+        font-size: calc(1.5rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
+    }
+    .secure-mobile{
+        display: none;
+    }
+    /* ----build-section---- */
 }
 
 @media only screen and (min-width: 1200px) and  (max-width: 1920px){
@@ -396,6 +508,10 @@
     .connect-text{
         width: 25%!important;
     }
+    .connect-head-div h1{
+        font-size: calc(1.5rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
+    }
     /* ---faster-section-- */
     .faster-mobile-section{
         display: none;
@@ -404,7 +520,26 @@
         width: 24rem;
         padding-left: 10px;
     }
+    .faster-heading-sec h1{
+        font-size: calc(1.5rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
+    }
     .faster-heading-sec{
         padding-top: 50px;
+    }
+    .secure-head-sec h1{
+        font-size: calc(1.5rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
+    }
+    .secure-list-sec{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .secure-mobile{
+        display: none;
+    }
+    .start-heading-sec h1{
+        font-size: calc(1.5rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
     }
 }
