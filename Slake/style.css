@@ -243,15 +243,21 @@
 }
 .build-sales{
     background-color: white;
+    height: 90%;
+    width: 90%;
     padding: 10px 0 7rem 10px;
     margin: 1rem 0 1rem 0;
     position: relative;
     box-shadow: 0 0 2rem rgba(0,0,0,.1)
 }
+.build-sales h1{
+    font-size: x-large;
+    font-weight: 600;
+}
 .build-sales p{
     font-size: large;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 30px!important;
 }
 .build-arrow-div{
     position: absolute;
@@ -262,6 +268,62 @@
 .build-arrow-div img{
     width: 30px;
     height: 30px;
+}
+/* -------------------------Join-Section-------------------------- */
+.join-section{
+    margin: 5rem 0 5rem 0;
+}
+.join-heading h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.join-heading a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    margin: 0.9rem 0 0.9rem 0;
+}
+.caro-one{
+    display: flex;
+    margin: 5rem 0 5rem 0;
+    position: relative;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1)
+}
+.caro-img img{
+    width: 100%;
+}
+.caro-div{
+    padding: 2rem 2rem 0 2rem;
+}
+.caro-div-img{
+    width: 100%;
+}
+.caro-div p:nth-child(2){
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    width: 70%;
+    font-style: italic;
+}
+.caro-div p:nth-child(3){
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.caro-div p:nth-child(4){
+    font-weight: 400;
+}
+.caro-bom{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.caro-bom p{
+    margin-bottom: 0;
+    color: rgb(19, 173, 224);
+    font-size: large;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 568px) {
@@ -312,6 +374,9 @@
         display: none;
     }
     .secure-pc{
+        display: none;
+    }
+    .bulid-img-sec{
         display: none;
     }
 }
@@ -445,6 +510,13 @@
         display: none;
     }
     /* ----build-section---- */
+    .join-heading{
+        text-align: center;
+    }
+    .join-heading h1{
+        font-size: calc(1rem + (18 * (100vw - 400px)/ 624));;
+        font-weight: 700;
+    }
 }
 
 @media only screen and (min-width: 1200px) and  (max-width: 1920px){
@@ -540,6 +612,20 @@
     }
     .start-heading-sec h1{
         font-size: calc(1.5rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
+    }
+    .bulid-heaidng-sec{
+        padding: 5rem 0 5rem 0;
+    }
+    .bulid-heaidng-sec h1{
+        font-size: calc(1rem + (18 * (100vw - 400px)/ 624));;
+        font-weight: 700;
+    }
+    .join-heading{
+        text-align: center;
+    }
+    .join-heading h1{
+        font-size: calc(1rem + (18 * (100vw - 400px)/ 624));;
         font-weight: 700;
     }
 }
