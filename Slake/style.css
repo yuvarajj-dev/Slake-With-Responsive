@@ -283,8 +283,7 @@
     font-weight: 600;
     margin: 0.9rem 0 0.9rem 0;
 }
-.caro-one{
-    display: flex;
+.caro-inside{
     margin: 5rem 0 5rem 0;
     position: relative;
     box-shadow: 0 0 2rem rgba(0,0,0,.1)
@@ -325,6 +324,177 @@
     font-size: large;
     font-weight: 600;
 }
+.caro-btn-div{
+    text-align: center;
+}
+.bn30 {
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+}
+
+.bn30 .text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+.bn30:after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #0e0e10;
+}
+
+.bn30:hover {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.bn30:hover .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+}
+/* --------company-section------- */
+.company-section{
+    margin: 4rem 0 4rem 0;
+}
+.company-list ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ----faq-section---- */
+.faq-section{
+    margin: 4rem 0 4rem 0;
+}
+.faq-heading h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.faq-head-accrd{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+}
+.faq-head-accrd p{
+    font-weight: 500;
+    font-size: larger;
+    margin-left: 10px;
+}
+.btn-for-accrd{
+    border: none;
+    background-color: #fff;
+}
+.faq-text-accrd-1{
+    font-size: large;
+    display: none;
+    color: gray;
+    font-weight: 500;
+    text-align: justify;
+    padding: 0 0.5rem 0 0.5rem;
+}
+.footer-for-mobile{
+    margin: 5rem 0 1rem 0;
+}
+.footer-for-mobile .container div{
+    margin: 0.5rem 0 0.5rem 0;
+}
+.footer-heading h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-heading button{
+    border: none;
+    background-color: #fff;
+}
+.footer-content{
+    color: grey;
+    display: none;
+}
+.footer-last-div p a{
+    text-decoration: none;
+}
+.footer-status-div p a{
+    text-decoration: none;
+    color: rgb(28, 174, 223);
+}
+.footer-icon-div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-last-div{
+    padding: 0.5rem 0 0.5rem 0;
+}
+.footer-last-div p{
+    font-size: smaller;
+    font-weight: 500;
+    color: grey;
+    margin: 0;
+}
+.footer-main-div{
+    display: flex;
+    justify-content: space-around;
+}
+.foot-com li:first-child{
+    font-size: 17px;
+    margin-bottom: 0.3rem;
+    color: #0e0e10;
+}
+.foot-com{
+    color: gray;
+}
+.footer-under-div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-under-one ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-under-one ul li{
+    margin-left: 10px;
+}
+.footer-under-two ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-under-two ul li{
+    margin-left: 10px;
+}
+.footer-under-two ul li a{
+    text-decoration: none;
+    color: rgb(28, 174, 223);
+}
+.footer-date{
+    margin: 1rem 0 1rem 0;
+}
+.footer-date p{
+    font-size: small;
+    color: gray;
+}
+
 
 @media only screen and (max-width: 568px) {
     .Logo{
@@ -377,6 +547,28 @@
         display: none;
     }
     .bulid-img-sec{
+        display: none;
+    }
+    .caro-inside{
+        display: block;
+    }
+    .caro-div-img{
+        text-align: center;
+    }
+    .caro-div p:nth-child(2){
+        width: 100%;
+    }
+    .caro-div{
+        padding-bottom: 2rem;
+    }
+    .company-section{
+        display: none;
+    }
+    .faq-heading h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .footer-for-pc{
         display: none;
     }
 }
@@ -455,6 +647,30 @@
     .secure-pc{
         display: none;
     }
+    .caro-inside{
+        display: block;
+        width: 80%;
+        margin: 3rem auto 3rem auto;
+    }
+    .caro-div-img{
+        text-align: center;
+    }
+    .caro-div p:nth-child(2){
+        width: 100%;
+    }
+    .caro-div{
+        padding-bottom: 2rem;
+    }
+    .company-section{
+        display: none;
+    }
+    .faq-heading h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .footer-for-pc{
+        display: none;
+    }
 }  
 
 @media only screen and (min-width: 769px) and (max-width: 1199px) {
@@ -517,6 +733,27 @@
         font-size: calc(1rem + (18 * (100vw - 400px)/ 624));;
         font-weight: 700;
     }
+    .caro-inside{
+        display: block;
+        width: 80%;
+        margin: 3rem auto 3rem auto;
+    }
+    .caro-div-img{
+        text-align: center;
+    }
+    .caro-div p:nth-child(2){
+        width: 100%;
+    }
+    .caro-div{
+        padding-bottom: 2rem;
+    }
+    .faq-heading h1{
+        font-size: calc(1rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
+    }
+    .footer-for-mobile{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1200px) and  (max-width: 1920px){
@@ -549,7 +786,7 @@
         display: inline-block;
         position: absolute;
         top: 40px;
-        left: 62%;
+        left: 60%;
     }
     .sign-in{
         margin-left: 100px;
@@ -627,5 +864,27 @@
     .join-heading h1{
         font-size: calc(1rem + (18 * (100vw - 400px)/ 624));;
         font-weight: 700;
+    }
+    .caro-inside{
+        display: flex;
+    }
+    .caro-div-img{
+        text-align: center;
+    }
+    .caro-div p:nth-child(2){
+        width: 100%;
+    }
+    .caro-div{
+        padding-bottom: 2rem;
+    }
+    .faq-heading{
+        padding: 3rem 0 3rem 0;
+    }
+    .faq-heading h1{
+        font-size: calc(1rem + (18 * (100vw - 400px)/ 624));
+        font-weight: 700;
+    }
+    .footer-for-mobile{
+        display: none;
     }
 }
