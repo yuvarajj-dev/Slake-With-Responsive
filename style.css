@@ -723,6 +723,9 @@
         font-weight: 700;
     }
     .secure-mobile{
+        display: block;
+    }
+    .secure-pc{
         display: none;
     }
     /* ----build-section---- */
