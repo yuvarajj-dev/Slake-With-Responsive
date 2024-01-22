@@ -13,9 +13,9 @@ Features:
                     4. File sharing functionality.
 
 Technologies Used:
-                    HTML5
-                    CSS3
-                    Bootstrap 5
+                    HTML5, 
+                    CSS3, 
+                    Bootstrap 5, 
                     JavaScript
 Installation:
                     Provide instructions on how to clone the repository and set up the project locally.
