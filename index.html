@@ -1,241 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slack Connect | Slack</title>
-    <link rel="shortcut icon" href="./Resource/favicon-32.png" type="image/x-icon">
-    <!-- Style Sheet -->
-    <link rel="stylesheet" href="./style.css">
-    <!-- Bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Bootstrap icons link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slack Connect | Slack</title>
+  <link rel="shortcut icon" href="./Resource/favicon-32.png" type="image/x-icon">
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Bootstrap icons link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-xl navbar-light ">
-            <div class="container">
-              <a class="navbar-brand" href="#"><img src="./Resource/rsz_slack_rgb.png" alt="logo" class="Logo"></a>
-              <div>
-                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="m18.78 17.72c.1467.1467.22.3233.22.53 0 .2133-.0733.39-.22.53-.16.1467-.3367.22-.53.22-.2067 0-.3833-.0733-.53-.22l-4.47-4.47c-.6667.54-1.4067.9567-2.22 1.25-.8067.2933-1.65.44-2.53.44-1.36 0-2.61333-.3367-3.76-1.01s-2.05667-1.5833-2.73-2.73-1.01-2.4-1.01-3.76.33667-2.61333 1.01-3.76 1.58333-2.05667 2.73-2.73 2.4-1.01 3.76-1.01 2.6133.33667 3.76 1.01 2.0567 1.58333 2.73 2.73 1.01 2.4 1.01 3.76c0 .88-.1467 1.7267-.44 2.54-.2933.8067-.71 1.5433-1.25 2.21zm-10.28-3.22c1.08667 0 2.0867-.27 3-.81.92-.54 1.65-1.2667 2.19-2.18.54-.92.81-1.92333.81-3.01s-.27-2.08667-.81-3c-.54-.92-1.27-1.65-2.19-2.19-.9133-.54-1.91333-.81-3-.81s-2.09.27-3.01.81c-.91333.54-1.64 1.27-2.18 2.19-.54.91333-.81 1.91333-.81 3s.27 2.09.81 3.01c.54.9133 1.26667 1.64 2.18 2.18.92.54 1.92333.81 3.01.81z" stroke="#000" stroke-width=".5"></path></svg>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              </div>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <div class="header-list-div">
-                        <ul class="list-unstyled ">
-                            <li><a class="nav-link active" aria-current="page" href="#"><div>
-                                <h5>Features</h5>
-                                <p><strong>></strong></p>
-                            </div></a></li>
-                            <li>
-                                <a class="nav-link" href="#"><div>
-                                    <h5>Solutions</h5>
-                                    <p><strong>></strong></p>
-                              </div></a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#"><div>
-                                    <h5>Enterprise</h5>
-                              </div></a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#"><div>
-                                    <h5>Resources</h5>
-                                    <p><strong>></strong></p>
-                              </div></a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#"><div>
-                                    <h5>Pricing</h5>
-                              </div></a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#"><div class="w-d">
-                                    <h5>Watch demo</h5>
-                                    <p><strong>></strong></p>
-                              </div></a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#"><div class="sign-in">
-                                    <h5>Sign in</h5>
-                              </div></a>
-                            </li>
-                        </ul>
-                    </div>
-                  <div class="header-buttons">
-                    <button class="btn btn-outline-primary ">TALK TO SALES</button>
-                    <button class="btn btn-primary ">DOWNLOAD SLAKE</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
-<!-- ----------------------------------------Slake-Section-------------------------------------------------------------- -->
-<section class="slake-main-section my-md-5 " >
-        <div class="container">
-            <div class="row">
-              <div class="col-md-5 col-lg-6">
-                <div class="slake-heading-div">
-                    <p>SLACK CONNECT</p>
-                    <h3>A better way to work with people outside your company</h3>
-                    <p class="last-chi">Slack Connect transforms the way you work alongside your partners, vendors or customers by moving conversations out of siloed email threads and into the same place.</p>
-                    <div class="slake-heading-btn-div">
-                      <button class="btn btn-primary ">TRY NOW</button>
-                      <button class="btn btn-outline-primary ">CONTACT SALES</button>
-                    </div>
-                </div>
-              </div>
-              <div class="col-md-7 col-lg-6 ">
-                <div class="slake-img-div w-100  my-4 my-sm-0">
-                    <img src="./Resource/img-slack-connect-hero.png" alt="slake-main-img" class="img-fluid">
-                </div>
-            </div>
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-light ">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./Resource/rsz_slack_rgb.png" alt="logo" class="Logo"></a>
+        <div>
+          <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m18.78 17.72c.1467.1467.22.3233.22.53 0 .2133-.0733.39-.22.53-.16.1467-.3367.22-.53.22-.2067 0-.3833-.0733-.53-.22l-4.47-4.47c-.6667.54-1.4067.9567-2.22 1.25-.8067.2933-1.65.44-2.53.44-1.36 0-2.61333-.3367-3.76-1.01s-2.05667-1.5833-2.73-2.73-1.01-2.4-1.01-3.76.33667-2.61333 1.01-3.76 1.58333-2.05667 2.73-2.73 2.4-1.01 3.76-1.01 2.6133.33667 3.76 1.01 2.0567 1.58333 2.73 2.73 1.01 2.4 1.01 3.76c0 .88-.1467 1.7267-.44 2.54-.2933.8067-.71 1.5433-1.25 2.21zm-10.28-3.22c1.08667 0 2.0867-.27 3-.81.92-.54 1.65-1.2667 2.19-2.18.54-.92.81-1.92333.81-3.01s-.27-2.08667-.81-3c-.54-.92-1.27-1.65-2.19-2.19-.9133-.54-1.91333-.81-3-.81s-2.09.27-3.01.81c-.91333.54-1.64 1.27-2.18 2.19-.54.91333-.81 1.91333-.81 3s.27 2.09.81 3.01c.54.9133 1.26667 1.64 2.18 2.18.92.54 1.92333.81 3.01.81z"
+              stroke="#000" stroke-width=".5"></path>
+          </svg>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-</section>
-<section class="slake-main-sec-for-mob   d-lg-none d-xl-none">
-      <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="slake-heading-div">
-                  <p>SLACK CONNECT</p>
-                  <h3>A better way to work with people outside your company</h3>
-                  <p class="last-chi">Slack Connect transforms the way you work alongside your partners, vendors or customers by moving conversations out of siloed email threads and into the same place.</p>
-                  <div class="slake-heading-btn-div">
-                      <button class="btn btn-primary ">TRY NOW</button>
-                      <button class="btn btn-outline-primary ">CONTACT SALES</button>
-                  </div>
-              </div>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <div class="header-list-div">
+              <ul class="list-unstyled ">
+                <li><a class="nav-link active" aria-current="page" href="#">
+                    <div>
+                      <h5>Features</h5>
+                      <p><strong>></strong></p>
+                    </div>
+                  </a></li>
+                <li>
+                  <a class="nav-link" href="#">
+                    <div>
+                      <h5>Solutions</h5>
+                      <p><strong>></strong></p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">
+                    <div>
+                      <h5>Enterprise</h5>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">
+                    <div>
+                      <h5>Resources</h5>
+                      <p><strong>></strong></p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">
+                    <div>
+                      <h5>Pricing</h5>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">
+                    <div class="w-d">
+                      <h5>Watch demo</h5>
+                      <p><strong>></strong></p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">
+                    <div class="sign-in">
+                      <h5>Sign in</h5>
+                    </div>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="col-12">
-                <div class="slake-img-div w-100  my-4 my-sm-0">
-                    <img src="./Resource/img-slack-connect-hero.png" alt="slake-main-img" class="img-fluid">
-                </div>
-            </div>
-          </div>
-      </div>
-</section>
-  <!-- ----------------------------------------connect-Section-------------------------------------------------------------- -->
-<section class="connect-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-md-center ">
-            <div class="connect-head-div">
-              <h1>Get more done in Slack Connect</h1>
-              <p>Whether you're working with vendors or sealing deals with a client, Slack Connect is here to help.</p>
+            <div class="header-buttons ">
+              <button class="btn btn-outline-primary ">TALK TO SALES</button>
+              <button class="btn btn-primary ">DOWNLOAD SLAKE</button>
             </div>
           </div>
         </div>
-        <div class="d-md-flex justify-content-md-around ">
-            <div class="connect-text">
-              <h1><span>4</span>X</h1>
-              <p>faster deal cycles for a sales team</p>
-            </div>
-            <div class="connect-text ">
-              <h1><span>64%</span></h1>
-              <p>decrease in backlog tickets for a customer support team</p>
-            </div>
-            <div class="connect-text">
-              <h1><span>2</span>X</h1>
-              <p>faster close in company acquisition for a business development team</p>
-            </div>
-        </div>
-        <div class="connect-footer text-md-center">
-          <p>Claims and figures based on specific teams using Slack Connect at their companies. Results may vary at your organisation.</p>
-        </div>
       </div>
-</section>
-<!-- -----------------------------------------------faster-section-for-mobile & laptop--------------------------------------- -->
-<section class="faster-mobile-section">
-    <div class="container">
+    </nav>
+  </header>
+  <!-- ----------------------------------------Slake-Section-------------------------------------------------------------- -->
+  <section class="slake-main-section my-md-5 ">
+    <div class="container mx-auto">
       <div class="row">
-          <div class="col-12">
-                <div class="faster-heading-sec">
-                    <h1>Connect Faster With Your Partners</h1>
-                    <div class="faster-list-sec">
-                      <div class="list"><i class="bi bi-check-circle"></i><p>Bring communication out of inboxes and into channels, where you can <span> work quickly and collaboratively with outside organisations</span></p></div>
-                      <div class="list"><i class="bi bi-check-circle"></i><p><span>Strengthen client relationships</span> in channels to provide top-tier enterprise support and drastically decrease response times</p></div>
-                      <div class="list"><i class="bi bi-check-circle"></i><p>Send messages and share files in real time to build collective insights along the way</p></div>
-                    </div>
-                    <a href="#">Get started with Slack Connect <img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
-                </div>
+        <div class="col-md-5 col-lg-6">
+          <div class="slake-heading-div">
+            <p>SLACK CONNECT</p>
+            <h3>A better way to work with people outside your company</h3>
+            <p class="last-chi">Slack Connect transforms the way you work alongside your partners, vendors or customers
+              by moving conversations out of siloed email threads and into the same place.</p>
+            <div class="slake-heading-btn-div">
+              <button class="btn btn-primary ">TRY NOW</button>
+              <button class="btn btn-outline-primary ">CONTACT SALES</button>
+            </div>
           </div>
-          <div class="col-12">
-              <div class="fast-card-sec">
-                <div class="fextra-card-div">
-                  <div class="fextra-heading">
-                    <h1>A1 Marketing Ltd. <i class="bi bi-chevron-down"></i></h1>
-                  </div>
-                  <div class="fextra-list-1">
-                      <h1><i class="bi bi-caret-down-fill"></i> Channels</h1>
-                      <ul class="list-unstyled ">
-                        <li><i class="bi bi-hash"></i>a1-bigcorp</li>
-                        <li><i class="bi bi-hash"></i>announcements</li>
-                        <li><i class="bi bi-hash"></i>tech-alliances</li>
-                        <li><i class="bi bi-hash"></i>win-wire</li>
-                      </ul>
-                  </div>
-                  <div class="fextra-list-2">
-                      <h1><i class="bi bi-caret-down-fill"></i> Direct messages</h1>
-                      <ul>
-                        <li>Geeta Joshi (you)</li>
-                        <li>Karandeep Singh</li>
-                        <li>Kriti Sanyal</li>
-                        <li>Fathima Parveen</li>
-                    </ul>
-                  </div>
-                </div> 
-                <div class="fast-card-right">
-                    <div class="fast-card-heading"> 
-                        <h3>#a1-bigcorp</h3>
-                        <hr>
-                    </div>
-                    <div class="fast-card-section-1">
-                        <div class="fast-card-sec-1-content">
-                            <div class="fast-card-sec-1-content-img">
-                              <img src="./Resource/persona-a.IN.png" alt="india" class="per-ind">
-                            </div>
-                            <div class="fast-card-sec-1-content-text">
-                              <h3>Fathima Parveen <span>13:09</span></h3>
-                              <p>Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?</p>
-                            </div>
-                        </div>
-                        <div class="fast-card-sec-1-content">
-                          <div class="fast-card-sec-1-content-img">
-                            <img src="./Resource/persona-f.en-IN.png" alt="india" class="per-ind">
-                          </div>
-                          <div class="fast-card-sec-1-content-text">
-                            <h3>Geeta Joshi <span>13:15</span></h3>
-                            <p>Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?</p>
-                          </div>
-                      </div>
-                    </div>
-                    <div class="fast-card-footer">
-                        <p><span>Big Corp</span> is in this channel</p>
-                        <input type="text" name="" id="" placeholder="Message #a1-bigcorp" >
-                    </div>
-                </div>
-              </div> 
+        </div>
+        <div class="col-md-7 col-lg-6 ">
+          <div class="slake-img-div w-100  my-4 my-sm-0">
+            <img src="./Resource/img-slack-connect-hero.png" alt="slake-main-img" class="img-fluid">
           </div>
+        </div>
       </div>
     </div>
-</section>
-<!-- ----------------------------------------faster-Section-pc-------------------------------------------------------------- -->
-<section class="faster-pc-section ">
-  <div class="container">
-    <div class="row">
-        <div class="col-6">
-        <div class="fast-card-sec">
-          <div class="fextra-card-div">
-            <div class="fextra-heading">
-              <h1>A1 Marketing Ltd. <i class="bi bi-chevron-down"></i></h1>
+  </section>
+  <section class="slake-main-sec-for-mob d-lg-none d-xl-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="slake-heading-div">
+            <p>SLACK CONNECT</p>
+            <h3>A better way to work with people outside your company</h3>
+            <p class="last-chi">Slack Connect transforms the way you work alongside your partners, vendors or customers
+              by moving conversations out of siloed email threads and into the same place.</p>
+            <div class="slake-heading-btn-div">
+              <button class="btn btn-primary ">TRY NOW</button>
+              <button class="btn btn-outline-primary ">CONTACT SALES</button>
             </div>
-            <div class="fextra-list-1">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="slake-img-div w-100  my-4 my-sm-0">
+            <img src="./Resource/img-slack-connect-hero.png" alt="slake-main-img" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ----------------------------------------connect-Section-------------------------------------------------------------- -->
+  <section class="connect-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-md-center ">
+          <div class="connect-head-div">
+            <h1>Get more done in Slack Connect</h1>
+            <p>Whether you're working with vendors or sealing deals with a client, Slack Connect is here to help.</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-md-flex justify-content-md-around ">
+        <div class="connect-text">
+          <h1><span>4</span>X</h1>
+          <p>faster deal cycles for a sales team</p>
+        </div>
+        <div class="connect-text ">
+          <h1><span>64%</span></h1>
+          <p>decrease in backlog tickets for a customer support team</p>
+        </div>
+        <div class="connect-text">
+          <h1><span>2</span>X</h1>
+          <p>faster close in company acquisition for a business development team</p>
+        </div>
+      </div>
+      <div class="connect-footer text-md-center">
+        <p>Claims and figures based on specific teams using Slack Connect at their companies. Results may vary at your
+          organisation.</p>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------------------------faster-section-for-mobile & laptop--------------------------------------- -->
+  <section class="faster-mobile-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="faster-heading-sec">
+            <h1>Connect Faster With Your Partners</h1>
+            <div class="faster-list-sec">
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p>Bring communication out of inboxes and into channels, where you can <span> work quickly and
+                    collaboratively with outside organisations</span></p>
+              </div>
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p><span>Strengthen client relationships</span> in channels to provide top-tier enterprise support and
+                  drastically decrease response times</p>
+              </div>
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p>Send messages and share files in real time to build collective insights along the way</p>
+              </div>
+            </div>
+            <a href="#">Get started with Slack Connect <img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="fast-card-sec">
+            <div class="fextra-card-div">
+              <div class="fextra-heading">
+                <h1>A1 Marketing Ltd. <i class="bi bi-chevron-down"></i></h1>
+              </div>
+              <div class="fextra-list-1">
                 <h1><i class="bi bi-caret-down-fill"></i> Channels</h1>
                 <ul class="list-unstyled ">
                   <li><i class="bi bi-hash"></i>a1-bigcorp</li>
@@ -243,399 +212,516 @@
                   <li><i class="bi bi-hash"></i>tech-alliances</li>
                   <li><i class="bi bi-hash"></i>win-wire</li>
                 </ul>
-            </div>
-            <div class="fextra-list-2">
+              </div>
+              <div class="fextra-list-2">
                 <h1><i class="bi bi-caret-down-fill"></i> Direct messages</h1>
                 <ul>
                   <li>Geeta Joshi (you)</li>
                   <li>Karandeep Singh</li>
                   <li>Kriti Sanyal</li>
                   <li>Fathima Parveen</li>
-              </ul>
+                </ul>
+              </div>
             </div>
-          </div> 
-          <div class="fast-card-right">
-              <div class="fast-card-heading"> 
-                  <h3>#a1-bigcorp</h3>
-                  <hr>
+            <div class="fast-card-right">
+              <div class="fast-card-heading">
+                <h3>#a1-bigcorp</h3>
+                <hr>
               </div>
               <div class="fast-card-section-1">
-                  <div class="fast-card-sec-1-content">
-                      <div class="fast-card-sec-1-content-img">
-                        <img src="./Resource/persona-a.IN.png" alt="india" class="per-ind">
-                      </div>
-                      <div class="fast-card-sec-1-content-text">
-                        <h3>Fathima Parveen <span>13:09</span></h3>
-                        <p>Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?</p>
-                      </div>
+                <div class="fast-card-sec-1-content">
+                  <div class="fast-card-sec-1-content-img">
+                    <img src="./Resource/persona-a.IN.png" alt="india" class="per-ind">
                   </div>
-                  <div class="fast-card-sec-1-content">
-                    <div class="fast-card-sec-1-content-img">
-                      <img src="./Resource/persona-f.en-IN.png" alt="india" class="per-ind">
-                    </div>
-                    <div class="fast-card-sec-1-content-text">
-                      <h3>Geeta Joshi <span>13:15</span></h3>
-                      <p>Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?</p>
-                    </div>
+                  <div class="fast-card-sec-1-content-text">
+                    <h3>Fathima Parveen <span>13:09</span></h3>
+                    <p>Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?
+                    </p>
+                  </div>
+                </div>
+                <div class="fast-card-sec-1-content">
+                  <div class="fast-card-sec-1-content-img">
+                    <img src="./Resource/persona-f.en-IN.png" alt="india" class="per-ind">
+                  </div>
+                  <div class="fast-card-sec-1-content-text">
+                    <h3>Geeta Joshi <span>13:15</span></h3>
+                    <p>Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="fast-card-footer">
-                  <p><span>Big Corp</span> is in this channel</p>
-                  <input type="text" name="" id="" placeholder="Message #a1-bigcorp" >
-              </div>
-          </div>
-        </div> 
-        </div>
-        <div class="col-6">
-              <div class="faster-heading-sec">
-                  <h1>Connect Faster With Your Partners</h1>
-                  <div class="faster-list-sec">
-                    <div class="list"><i class="bi bi-check-circle"></i><p>Bring communication out of inboxes and into channels, where you can <span>work quickly and collaboratively with outside organisations</span></p></div>
-                    <div class="list"><i class="bi bi-check-circle"></i><p><span>Strengthen client relationships</span> in channels to provide top-tier enterprise support and drastically decrease response times</p></div>
-                    <div class="list"><i class="bi bi-check-circle"></i><p>Send messages and share files in real time to build collective insights along the way</p></div>
-                  </div>
-                  <a href="#">Get started with Slack Connect <img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
-              </div>
-        </div>
-    </div>
-  </div>
-</section>
-<!-- -----------------------------------------------Secure-section------------------------------------------------------------------ -->
-<section class="secure-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-6">
-        <div class="secure-text-div">
-              <div class="secure-head-sec">
-                <h1>Connect securely with outside organisations</h1>
-              </div>
-              <div class="faster-list-sec secure-list-sec">
-                <div class="list"><i class="bi bi-check-circle"></i><p>Keep your work secure with Slack’s enterprise-grade security features and compliance standards</p></div>
-                <div class="list"><i class="bi bi-check-circle"></i><p>Gain secure access to communicate and collaborate confidently with partner organisations</p></div>
-                <div class="list"><i class="bi bi-check-circle"></i><p>Reduce your team’s exposure to the email phishing and spam attacks that come with email</p></div>
-              </div>  
-              <a href="#">Learn more about Slack’s enterprise-grade security<img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
-          </div>  
-      </div>
-      <div class="col-12 col-lg-6">
-        <div class="secure-img-sec w-100 ">
-            <img src="./Resource/img-connect-securely.png" alt="first-contain-div" class="img-fluid">
-        </div>
-      </div>
-    </div>
-    <div class="secure-pc">
-      <div class="row">
-        <div class="col-12 col-lg-6">
-          <div class="secure-img-sec w-100 ">
-              <img src="./Resource/connect-tools.jpg" alt="first-contain-div" class="img-fluid">
-          </div>
-        </div> 
-        <div class="col-12 col-lg-6">
-          <div class="secure-text-div">
-                <div class="secure-head-sec">
-                  <h1>Connect tools and automate workflows</h1>
-                </div>
-                <div class="faster-list-sec secure-list-sec">
-                  <div class="list"><i class="bi bi-check-circle"></i><p>Easily book meetings, share documents and simplify various other routine tasks with apps</p></div>
-                  <div class="list"><i class="bi bi-check-circle"></i><p>Streamline processes and speed up collaboration by building and connecting new workflows across organisations</p></div>
-                </div>  
-                <a href="#">Apps to use in Slack Connect<img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
-        </div>  
-      </div>   
-    </div>
-    </div>
-    <!-- -----------------secure-second-sec-for-mobile----------- -->
-    <div class="secure-mobile">
-      <div class="row">
-        <div class="col-12">
-          <div class="secure-text-div">
-                <div class="secure-head-sec">
-                  <h1>Connect tools and automate workflows</h1>
-                </div>
-                <div class="faster-list-sec secure-list-sec">
-                  <div class="list"><i class="bi bi-check-circle"></i><p>Easily book meetings, share documents and simplify various other routine tasks with apps</p></div>
-                  <div class="list"><i class="bi bi-check-circle"></i><p>Streamline processes and speed up collaboration by building and connecting new workflows across organisations</p></div>
-                </div>  
-                <a href="#">Apps to use in Slack Connect<img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
-        </div>  
-        </div>   
-        <div class="col-12">
-        <div class="secure-img-sec w-100 ">
-            <img src="./Resource/connect-tools.jpg" alt="first-contain-div" class="img-fluid">
-        </div>
-        </div> 
-      </div>
-    </div>
-  </div>
-</section>
-<!-- -----------------------------------------------Started-Section---------------------------------------------- -->
-<section class="start-section">
-  <div class="container">
-    <div class="row">
-      <div class="start-heading-sec">
-        <h1>How to get started</h1>
-        <p>It only takes a few clicks to start working closely with vendors, customers and more</p>
-      </div>
-    </div>
-    <div class="row start-col-div">
-      <div class="col-12 col-sm-6 col-lg-3">
-        <div class="start-div">
-          <div>
-            <img src="./Resource/icon/hash.svg" alt="">
-          </div>
-            <p>1. Create the channel</p>
-            <p>Click the + button next to Channels in your sidebar. Name the channel, and click Create.</p>
-        </div>
-      </div>  
-      <div class="col-12 col-sm-6 col-lg-3">
-        <div class="start-div">
-          <div>
-            <img src="./Resource/icon/telegram.svg" alt="">
-          </div>
-            <p>2. Send the invite</p>
-            <p>Invite your partner right from Slack. If you're on the Business+ or Enterprise Grid subscription, you can also copy and share the link provided.</p>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-3">
-        <div class="start-div">
-          <div>
-            <img src="./Resource/icon/hand-thumbs-up-fill.svg" alt="">
-          </div>
-            <p>3. Wait for your partner</p>
-            <p>After they click on the link, they’ll be taken back to Slack to accept and set up the channel on their end.</p>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-3">
-        <div class="start-div">
-          <div>
-            <img src="./Resource/icon/person-fill-lock.svg" alt="">
-          </div>
-            <p>3. Wait for your partner</p>
-            <p>After they click on the link, they’ll be taken back to Slack to accept and set up the channel on their end.</p>
-        </div>
-      </div>
-  </div>
-</section>
-<!-- -----------------------------------------------Build-secion--------------------------------------------------------- -->
-<section class="build-section">
-      <div class="container">
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-6">
-                <div class="bulid-heaidng-sec">
-                  <h1>Built for roles of all types</h1>
-                  <p>Slack Connect allows you to build deeper relationships with all the people that you work with, no matter the profession.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-6 ">
-              <div class="bulid-img-sec w-100">
-                <img src="./Resource/img-roles.png" alt="side-img" class="img-fluid ">
+                <p><span>Big Corp</span> is in this channel</p>
+                <input type="text" name="" id="" placeholder="Message #a1-bigcorp">
               </div>
             </div>
           </div>
-          <div class="row">
-              <div class="col-12 col-lg-4 ">
-                <div class="build-sales">
-                    <img src="./Resource/Build-section/1.jpg" alt="Sales" >
-                    <h1>Sales</h1>
-                    <p>Close deals with prospects faster</p>
-                    <div class="build-arrow-div">
-                        <img src="./Resource/icon/arrow-right.svg" alt="arrow" >
-                    </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4">
-                <div class="build-sales">
-                    <img src="./Resource/Build-section/2.jpg" alt="Sales" >
-                    <h1>Customer Success</h1>
-                    <p>Build Strong Customer Relationships</p>
-                    <div class="build-arrow-div">
-                        <img src="./Resource/icon/arrow-right.svg" alt="arrow" >
-                    </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4">
-                <div class="build-sales">
-                    <img src="./Resource/Build-section/3.jpg" alt="Sales" >
-                    <h1>Service</h1>
-                    <p>Resolve Customer issues faster</p>
-                    <div class="build-arrow-div">
-                        <img src="./Resource/icon/arrow-right.svg" alt="arrow" >
-                    </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4">
-                <div class="build-sales">
-                    <img src="./Resource/Build-section/4.jpg" alt="Sales" >
-                    <h1>Marketing</h1>
-                    <p>Work faster with agency partners</p>
-                    <div class="build-arrow-div">
-                        <img src="./Resource/icon/arrow-right.svg" alt="arrow" >
-                    </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4">
-                <div class="build-sales">
-                    <img src="./Resource/Build-section/5.jpg" alt="Sales" >
-                    <h1>Operations</h1>
-                    <p>Work quickly with vendors and suppliers</p>
-                    <div class="build-arrow-div">
-                        <img src="./Resource/icon/arrow-right.svg" alt="arrow" >
-                    </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4">
-                <div class="build-sales">
-                    <img src="./Resource/Build-section/6.jpg" alt="Sales" >
-                    <h1>Business development</h1>
-                    <p>Work quickly with partners on joint initiatives</p>
-                    <div class="build-arrow-div">
-                        <img src="./Resource/icon/arrow-right.svg" alt="arrow" >
-                    </div>
-                </div>
-              </div>
-          </div>
+        </div>
       </div>
-</section>
-<!-- -----------------------------------------------Join-section--------------------------------------------------------- -->
-<section class="join-section">
+    </div>
+  </section>
+  <!-- ----------------------------------------faster-Section-pc-------------------------------------------------------------- -->
+  <section class="faster-pc-section ">
     <div class="container">
       <div class="row">
-          <div class="join-heading">
-              <h1>Join the 350,000+ organisations working in Slack Connect</h1>
-              <a href="#">See all customer stories <img src="./Resource/icon/arrow-right.svg" alt=""></a>
+        <div class="col-6">
+          <div class="fast-card-sec">
+            <div class="fextra-card-div">
+              <div class="fextra-heading">
+                <h1>A1 Marketing Ltd. <i class="bi bi-chevron-down"></i></h1>
+              </div>
+              <div class="fextra-list-1">
+                <h1><i class="bi bi-caret-down-fill"></i> Channels</h1>
+                <ul class="list-unstyled ">
+                  <li><i class="bi bi-hash"></i>a1-bigcorp</li>
+                  <li><i class="bi bi-hash"></i>announcements</li>
+                  <li><i class="bi bi-hash"></i>tech-alliances</li>
+                  <li><i class="bi bi-hash"></i>win-wire</li>
+                </ul>
+              </div>
+              <div class="fextra-list-2">
+                <h1><i class="bi bi-caret-down-fill"></i> Direct messages</h1>
+                <ul>
+                  <li>Geeta Joshi (you)</li>
+                  <li>Karandeep Singh</li>
+                  <li>Kriti Sanyal</li>
+                  <li>Fathima Parveen</li>
+                </ul>
+              </div>
+            </div>
+            <div class="fast-card-right">
+              <div class="fast-card-heading">
+                <h3>#a1-bigcorp</h3>
+                <hr>
+              </div>
+              <div class="fast-card-section-1">
+                <div class="fast-card-sec-1-content">
+                  <div class="fast-card-sec-1-content-img">
+                    <img src="./Resource/persona-a.IN.png" alt="india" class="per-ind">
+                  </div>
+                  <div class="fast-card-sec-1-content-text">
+                    <h3>Fathima Parveen <span>13:09</span></h3>
+                    <p>Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?
+                    </p>
+                  </div>
+                </div>
+                <div class="fast-card-sec-1-content">
+                  <div class="fast-card-sec-1-content-img">
+                    <img src="./Resource/persona-f.en-IN.png" alt="india" class="per-ind">
+                  </div>
+                  <div class="fast-card-sec-1-content-text">
+                    <h3>Geeta Joshi <span>13:15</span></h3>
+                    <p>Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="fast-card-footer">
+                <p><span>Big Corp</span> is in this channel</p>
+                <input type="text" name="" id="" placeholder="Message #a1-bigcorp">
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="col-6">
+          <div class="faster-heading-sec">
+            <h1>Connect Faster With Your Partners</h1>
+            <div class="faster-list-sec">
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p>Bring communication out of inboxes and into channels, where you can <span>work quickly and
+                    collaboratively with outside organisations</span></p>
+              </div>
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p><span>Strengthen client relationships</span> in channels to provide top-tier enterprise support and
+                  drastically decrease response times</p>
+              </div>
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p>Send messages and share files in real time to build collective insights along the way</p>
+              </div>
+            </div>
+            <a href="#">Get started with Slack Connect <img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------------------------Secure-section------------------------------------------------------------------ -->
+  <section class="secure-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="secure-text-div">
+            <div class="secure-head-sec">
+              <h1>Connect securely with outside organisations</h1>
+            </div>
+            <div class="faster-list-sec secure-list-sec">
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p>Keep your work secure with Slack’s enterprise-grade security features and compliance standards</p>
+              </div>
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p>Gain secure access to communicate and collaborate confidently with partner organisations</p>
+              </div>
+              <div class="list"><i class="bi bi-check-circle"></i>
+                <p>Reduce your team’s exposure to the email phishing and spam attacks that come with email</p>
+              </div>
+            </div>
+            <a href="#">Learn more about Slack’s enterprise-grade security<img src="./Resource/icon/arrow-right.svg"
+                alt="arrow right"></a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="secure-img-sec w-100 ">
+            <img src="./Resource/img-connect-securely.png" alt="first-contain-div" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="secure-pc">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="secure-img-sec w-100 ">
+              <img src="./Resource/connect-tools.jpg" alt="first-contain-div" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="secure-text-div">
+              <div class="secure-head-sec">
+                <h1>Connect tools and automate workflows</h1>
+              </div>
+              <div class="faster-list-sec secure-list-sec">
+                <div class="list"><i class="bi bi-check-circle"></i>
+                  <p>Easily book meetings, share documents and simplify various other routine tasks with apps</p>
+                </div>
+                <div class="list"><i class="bi bi-check-circle"></i>
+                  <p>Streamline processes and speed up collaboration by building and connecting new workflows across
+                    organisations</p>
+                </div>
+              </div>
+              <a href="#">Apps to use in Slack Connect<img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -----------------secure-second-sec-for-mobile----------- -->
+      <div class="secure-mobile">
+        <div class="row">
+          <div class="col-12">
+            <div class="secure-text-div">
+              <div class="secure-head-sec">
+                <h1>Connect tools and automate workflows</h1>
+              </div>
+              <div class="faster-list-sec secure-list-sec">
+                <div class="list"><i class="bi bi-check-circle"></i>
+                  <p>Easily book meetings, share documents and simplify various other routine tasks with apps</p>
+                </div>
+                <div class="list"><i class="bi bi-check-circle"></i>
+                  <p>Streamline processes and speed up collaboration by building and connecting new workflows across
+                    organisations</p>
+                </div>
+              </div>
+              <a href="#">Apps to use in Slack Connect<img src="./Resource/icon/arrow-right.svg" alt="arrow right"></a>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="secure-img-sec w-100 ">
+              <img src="./Resource/connect-tools.jpg" alt="first-contain-div" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------------------------Started-Section---------------------------------------------- -->
+  <section class="start-section">
+    <div class="container">
+      <div class="row">
+        <div class="start-heading-sec">
+          <h1>How to get started</h1>
+          <p>It only takes a few clicks to start working closely with vendors, customers and more</p>
+        </div>
+      </div>
+      <div class="row start-col-div">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="start-div">
+            <div>
+              <img src="./Resource/icon/hash.svg" alt="">
+            </div>
+            <p>1. Create the channel</p>
+            <p>Click the + button next to Channels in your sidebar. Name the channel, and click Create.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="start-div">
+            <div>
+              <img src="./Resource/icon/telegram.svg" alt="">
+            </div>
+            <p>2. Send the invite</p>
+            <p>Invite your partner right from Slack. If you're on the Business+ or Enterprise Grid subscription, you can
+              also copy and share the link provided.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="start-div">
+            <div>
+              <img src="./Resource/icon/hand-thumbs-up-fill.svg" alt="">
+            </div>
+            <p>3. Wait for your partner</p>
+            <p>After they click on the link, they’ll be taken back to Slack to accept and set up the channel on their
+              end.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="start-div">
+            <div>
+              <img src="./Resource/icon/person-fill-lock.svg" alt="">
+            </div>
+            <p>3. Wait for your partner</p>
+            <p>After they click on the link, they’ll be taken back to Slack to accept and set up the channel on their
+              end.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- -----------------------------------------------Build-secion--------------------------------------------------------- -->
+  <section class="build-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6">
+          <div class="bulid-heaidng-sec">
+            <h1>Built for roles of all types</h1>
+            <p>Slack Connect allows you to build deeper relationships with all the people that you work with, no matter
+              the profession.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 ">
+          <div class="bulid-img-sec w-100">
+            <img src="./Resource/img-roles.png" alt="side-img" class="img-fluid ">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 ">
+          <div class="build-sales">
+            <img src="./Resource/Build-section/1.jpg" alt="Sales">
+            <h1>Sales</h1>
+            <p>Close deals with prospects faster</p>
+            <div class="build-arrow-div">
+              <img src="./Resource/icon/arrow-right.svg" alt="arrow">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="build-sales">
+            <img src="./Resource/Build-section/2.jpg" alt="Sales">
+            <h1>Customer Success</h1>
+            <p>Build Strong Customer Relationships</p>
+            <div class="build-arrow-div">
+              <img src="./Resource/icon/arrow-right.svg" alt="arrow">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="build-sales">
+            <img src="./Resource/Build-section/3.jpg" alt="Sales">
+            <h1>Service</h1>
+            <p>Resolve Customer issues faster</p>
+            <div class="build-arrow-div">
+              <img src="./Resource/icon/arrow-right.svg" alt="arrow">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="build-sales">
+            <img src="./Resource/Build-section/4.jpg" alt="Sales">
+            <h1>Marketing</h1>
+            <p>Work faster with agency partners</p>
+            <div class="build-arrow-div">
+              <img src="./Resource/icon/arrow-right.svg" alt="arrow">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="build-sales">
+            <img src="./Resource/Build-section/5.jpg" alt="Sales">
+            <h1>Operations</h1>
+            <p>Work quickly with vendors and suppliers</p>
+            <div class="build-arrow-div">
+              <img src="./Resource/icon/arrow-right.svg" alt="arrow">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="build-sales">
+            <img src="./Resource/Build-section/6.jpg" alt="Sales">
+            <h1>Business development</h1>
+            <p>Work quickly with partners on joint initiatives</p>
+            <div class="build-arrow-div">
+              <img src="./Resource/icon/arrow-right.svg" alt="arrow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------------------------Join-section--------------------------------------------------------- -->
+  <section class="join-section">
+    <div class="container">
+      <div class="row">
+        <div class="join-heading">
+          <h1>Join the 350,000+ organisations working in Slack Connect</h1>
+          <a href="#">See all customer stories <img src="./Resource/icon/arrow-right.svg" alt=""></a>
+        </div>
       </div>
       <div class="carousel-main">
-          <div class="caro-one">
-              <div class="caro-inside">
-                <div class="caro-img">
-                  <img src="./Resource/iress-customer-story-hero-image@2x.jpg" alt="iress" class="img-fluid " >
-                </div>
-                <div  class="caro-div ">
-                        <div class=" caro-div-img ">
-                          <img src="./Resource/iress-logo@2x.png" alt="iress-log" class="img-fluid ">
-                        </div>
-                        <p>‘Slack helps us to drive a culture of one global team that is accessible and works closely and cohesively together to deliver great things for our clients and users.’</p>
-                        <p>Andrew Walsh</p>
-                        <p>CEO</p>
-                        <div class="caro-bom">
-                          <p>READ STORY <img src="./Resource/icon/arrow-right.svg" alt="" srcset=""></p>
-                        </div>
-                </div>
+        <div class="caro-one">
+          <div class="caro-inside">
+            <div class="caro-img">
+              <img src="./Resource/iress-customer-story-hero-image@2x.jpg" alt="iress" class="img-fluid ">
+            </div>
+            <div class="caro-div ">
+              <div class=" caro-div-img ">
+                <img src="./Resource/iress-logo@2x.png" alt="iress-log" class="img-fluid ">
               </div>
-          </div>
-          <div class="caro-one">
-            <div class="caro-inside">
-              <div class="caro-img">
-                <img src="./Resource/slack-customer-story-xero@2x.jpg" alt="iress" class="img-fluid " >
-              </div>
-              <div  class="caro-div">
-                      <div class=" caro-div-img ">
-                        <img src="./Resource/slack-customer-story-xero-logo@2x.png" alt="iress-log" class="img-fluid ">
-                      </div>
-                      <p>‘Slack helps us to drive a culture of one global team that is accessible and works closely and cohesively together to deliver great things for our clients and users.’</p>
-                      <p>Levi Allan</p>
-                      <p>Executive General Manager - Practice and Compliance</p>
-                      <div class="caro-bom">
-                        <p>READ STORY <img src="./Resource/icon/arrow-right.svg" alt="" srcset=""></p>
-                      </div>
+              <p>‘Slack helps us to drive a culture of one global team that is accessible and works closely and
+                cohesively together to deliver great things for our clients and users.’</p>
+              <p>Andrew Walsh</p>
+              <p>CEO</p>
+              <div class="caro-bom">
+                <p>READ STORY <img src="./Resource/icon/arrow-right.svg" alt="" srcset=""></p>
               </div>
             </div>
           </div>
-          <div class="caro-one">
-            <div class="caro-inside">
-              <div class="caro-img">
-                <img src="./Resource/deliveroo-customer-story-hero-image@2x-1.jpg" alt="iress" class="img-fluid " >
+        </div>
+        <div class="caro-one">
+          <div class="caro-inside">
+            <div class="caro-img">
+              <img src="./Resource/slack-customer-story-xero@2x.jpg" alt="iress" class="img-fluid ">
+            </div>
+            <div class="caro-div">
+              <div class=" caro-div-img ">
+                <img src="./Resource/slack-customer-story-xero-logo@2x.png" alt="iress-log" class="img-fluid ">
               </div>
-              <div  class="caro-div">
-                      <div class=" caro-div-img ">
-                        <img src="./Resource/logo-deliveroo@2x.png" alt="iress-log" class="img-fluid ">
-                      </div>
-                      <p>‘Slack helps us to drive a culture of one global team that is accessible and works closely and cohesively together to deliver great things for our clients and users.’</p>
-                      <p>Will Sprunt</p>
-                      <p>CIO</p>
-                      <div class="caro-bom">
-                        <p>READ STORY <img src="./Resource/icon/arrow-right.svg" alt="" srcset=""></p>
-                      </div>
+              <p>‘Slack helps us to drive a culture of one global team that is accessible and works closely and
+                cohesively together to deliver great things for our clients and users.’</p>
+              <p>Levi Allan</p>
+              <p>Executive General Manager - Practice and Compliance</p>
+              <div class="caro-bom">
+                <p>READ STORY <img src="./Resource/icon/arrow-right.svg" alt="" srcset=""></p>
               </div>
             </div>
           </div>
+        </div>
+        <div class="caro-one">
+          <div class="caro-inside">
+            <div class="caro-img">
+              <img src="./Resource/deliveroo-customer-story-hero-image@2x-1.jpg" alt="iress" class="img-fluid ">
+            </div>
+            <div class="caro-div">
+              <div class=" caro-div-img ">
+                <img src="./Resource/logo-deliveroo@2x.png" alt="iress-log" class="img-fluid ">
+              </div>
+              <p>‘Slack helps us to drive a culture of one global team that is accessible and works closely and
+                cohesively together to deliver great things for our clients and users.’</p>
+              <p>Will Sprunt</p>
+              <p>CIO</p>
+              <div class="caro-bom">
+                <p>READ STORY <img src="./Resource/icon/arrow-right.svg" alt="" srcset=""></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="caro-btn-div">
-        <button class="bn30" onclick="pre()"><</button>
-        <button class="bn30" onclick="nex()">></button>
+        <button class="bn30" onclick="pre()">
+          < </button>
+            <button class="bn30" onclick="nex()">></button>
       </div>
     </div>
-</section>
-<!-- ----------------------------------------Company's-Section-------------------------------------------------------------- -->
-<section class="company-section">
-  <div class="container">
-    <div class="company-list">
-      <ul class="list-unstyled">
-        <li><img src="./Resource/company's/airbnb-logo.png" alt=""></li>
-        <li><img src="./Resource/company's/autodesk-logo.png" alt=""></li>
-        <li><img src="./Resource/company's/logo-seek.png" alt=""></li>
-        <li><img src="./Resource/company's/peloton-logo.png" alt=""></li>
-        <li><img src="./Resource/company's/target-logo.png" alt=""></li>
-        <li><img src="./Resource/company's/time-logo.png" alt=""></li>
-        <li><img src="./Resource/company's/uber.png" alt=""></li>
-      </ul>
+  </section>
+  <!-- ----------------------------------------Company's-Section-------------------------------------------------------------- -->
+  <section class="company-section">
+    <div class="container">
+      <div class="company-list">
+        <ul class="list-unstyled">
+          <li><img src="./Resource/company's/airbnb-logo.png" alt=""></li>
+          <li><img src="./Resource/company's/autodesk-logo.png" alt=""></li>
+          <li><img src="./Resource/company's/logo-seek.png" alt=""></li>
+          <li><img src="./Resource/company's/peloton-logo.png" alt=""></li>
+          <li><img src="./Resource/company's/target-logo.png" alt=""></li>
+          <li><img src="./Resource/company's/time-logo.png" alt=""></li>
+          <li><img src="./Resource/company's/uber.png" alt=""></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</section>
-<!-- -----------------------------------------------FAQ-Section-------------------------------------------------------- -->
-<section class="faq-section">
-  <div class="container">
-    <div class="faq-heading">
-      <h1>Frequently asked questions</h1>
-    </div>
-    <div class="faq-main-accrd">
+  </section>
+  <!-- -----------------------------------------------FAQ-Section-------------------------------------------------------- -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="faq-heading">
+        <h1>Frequently asked questions</h1>
+      </div>
+      <div class="faq-main-accrd">
         <div class="faq-accrd-div">
           <div class="faq-head-accrd">
             <p>Is Slack Connect free?</p>
-            <button class="btn-for-accrd" onclick="fun1()" ><i class="bi bi-chevron-down"></i></button>
+            <button class="btn-for-accrd" onclick="fun1()"><i class="bi bi-chevron-down"></i></button>
           </div>
           <div class="faq-text-accrd-1" id="fun1">
-            <p>All of Slack’s subscriptions include the ability to send a one-to-one message to someone outside your organisation via Slack Connect. However, to share channels across orgs, you’ll need to be on one of Slack’s paid subscriptions.</p>
-            <p>If you are on the Enterprise Grid subscription, external partners on a free subscription can join Slack Connect channels without having to upgrade or start a free trial. If you are on a different paid subscription, that’s not a problem! Once you’ve invited your partners to collaborate with Slack Connect, if they’re eligible, they’ll get a 90-day free trial of Slack’s Pro subscription.</p>
+            <p>All of Slack’s subscriptions include the ability to send a one-to-one message to someone outside your
+              organisation via Slack Connect. However, to share channels across orgs, you’ll need to be on one of
+              Slack’s paid subscriptions.</p>
+            <p>If you are on the Enterprise Grid subscription, external partners on a free subscription can join Slack
+              Connect channels without having to upgrade or start a free trial. If you are on a different paid
+              subscription, that’s not a problem! Once you’ve invited your partners to collaborate with Slack Connect,
+              if they’re eligible, they’ll get a 90-day free trial of Slack’s Pro subscription.</p>
           </div>
         </div>
         <div class="faq-accrd-div">
           <div class="faq-head-accrd">
             <p>How do I start working with someone outside my company in Slack?</p>
-            <button class="btn-for-accrd" onclick="fun2()" ><i class="bi bi-chevron-down"></i></button>
+            <button class="btn-for-accrd" onclick="fun2()"><i class="bi bi-chevron-down"></i></button>
           </div>
           <div class="faq-text-accrd-1" id="fun2">
-            <p>You can invite someone outside your company to share a channel in Slack. Or, skip the channels for now and send an invitation to start exchanging direct messages – just like you would with other DMs!</p>
-            <p>It really only takes a few clicks to start working closely with vendors, customers and more. You are welcome to book a free 20-minute call with a Slack expert if you need help with getting started!</p>
+            <p>You can invite someone outside your company to share a channel in Slack. Or, skip the channels for now
+              and send an invitation to start exchanging direct messages – just like you would with other DMs!</p>
+            <p>It really only takes a few clicks to start working closely with vendors, customers and more. You are
+              welcome to book a free 20-minute call with a Slack expert if you need help with getting started!</p>
           </div>
         </div>
         <div class="faq-accrd-div">
           <div class="faq-head-accrd">
             <p>What’s the difference between Slack Connect and Slack channels?</p>
-            <button class="btn-for-accrd" onclick="fun3()" ><i class="bi bi-chevron-down"></i></button>
+            <button class="btn-for-accrd" onclick="fun3()"><i class="bi bi-chevron-down"></i></button>
           </div>
           <div class="faq-text-accrd-1" id="fun3">
-            <p>Great question! Channels in Slack transform the way that you work with your colleagues. Similarly, Slack Connect makes it possible to work in channels with people from outside your company, as well. With Slack Connect, you don’t need to give people access to your whole Slack workspace – just the channels that you need to collaborate in.</p>
+            <p>Great question! Channels in Slack transform the way that you work with your colleagues. Similarly, Slack
+              Connect makes it possible to work in channels with people from outside your company, as well. With Slack
+              Connect, you don’t need to give people access to your whole Slack workspace – just the channels that you
+              need to collaborate in.</p>
           </div>
         </div>
         <div class="faq-accrd-div">
           <div class="faq-head-accrd">
             <p>How is Slack Connect more secure than email?</p>
-            <button class="btn-for-accrd" onclick="fun4()" ><i class="bi bi-chevron-down"></i></button>
+            <button class="btn-for-accrd" onclick="fun4()"><i class="bi bi-chevron-down"></i></button>
           </div>
           <div class="faq-text-accrd-1" id="fun4">
-            <p>With Slack Connect, admins can maintain control over their organisation’s data and monitor external access. And unlike collaborating via email – which leaves users open to the risk of spam and phishing – working in channels only allows teams to receive messages and files from verified members. Learn more about the enterprise-grade security built into Slack Connect here.</p>
+            <p>With Slack Connect, admins can maintain control over their organisation’s data and monitor external
+              access. And unlike collaborating via email – which leaves users open to the risk of spam and phishing –
+              working in channels only allows teams to receive messages and files from verified members. Learn more
+              about the enterprise-grade security built into Slack Connect here.</p>
           </div>
         </div>
         <div class="faq-accrd-div">
           <div class="faq-head-accrd">
             <p>What are some recommended use cases for Slack Connect?</p>
-            <button class="btn-for-accrd" onclick="fun5()" ><i class="bi bi-chevron-down"></i></button>
+            <button class="btn-for-accrd" onclick="fun5()"><i class="bi bi-chevron-down"></i></button>
           </div>
           <div class="faq-text-accrd-1" id="fun5">
             <p>What are some recommended use cases for Slack Connect?
-              Slack Connect makes working with people from other companies as fast and simple as working with your teammates on Slack. That makes it ideal for collaborating with external partners, vendors and customers. The fast, efficient communication in Slack channels and direct messages can help teams across companies to:</p>
+              Slack Connect makes working with people from other companies as fast and simple as working with your
+              teammates on Slack. That makes it ideal for collaborating with external partners, vendors and customers.
+              The fast, efficient communication in Slack channels and direct messages can help teams across companies
+              to:</p>
             <ul>
               <li>Build stronger customer relationships</li>
               <li>Decrease response tim</li>
@@ -645,11 +731,11 @@
             </ul>
           </div>
         </div>
+      </div>
     </div>
-  </div>
-</section>
-<!-- -----------------------------------------------Footer-Section--------------------------------------------------------- -->
-<footer class="footer-for-mobile">
+  </section>
+  <!-- -----------------------------------------------Footer-Section--------------------------------------------------------- -->
+  <footer class="footer-for-mobile">
     <div class="container">
       <div class="footer-first-div">
         <div class="footer-heading">
@@ -670,10 +756,10 @@
           <button onclick="foot_2()"><i class="bi bi-chevron-down"></i></button>
         </div>
         <div class="footer-content" id="foot2">
-            <p>Features</p>
-            <p>Integrations</p>
-            <p>Enterprise</p>
-            <p>Solutions</p>
+          <p>Features</p>
+          <p>Integrations</p>
+          <p>Enterprise</p>
+          <p>Solutions</p>
         </div>
       </div>
       <div class="footer-third-div">
@@ -682,8 +768,8 @@
           <button onclick="foot_3()"><i class="bi bi-chevron-down"></i></button>
         </div>
         <div class="footer-content" id="foot3">
-            <p>Subscriptions</p>
-            <p>Paid vs Free</p>
+          <p>Subscriptions</p>
+          <p>Paid vs Free</p>
         </div>
       </div>
       <div class="footer-Fourth-div">
@@ -692,26 +778,26 @@
           <button onclick="foot_4()"><i class="bi bi-chevron-down"></i></button>
         </div>
         <div class="footer-content" id="foot4">
-            <p>Apps</p>
-            <p>Blog</p>
-            <p>Events</p>
-            <p>Community</p>
-            <p>Developers</p> 
-            <p>Help Center</p>
+          <p>Apps</p>
+          <p>Blog</p>
+          <p>Events</p>
+          <p>Community</p>
+          <p>Developers</p>
+          <p>Help Center</p>
         </div>
-      </div>  
+      </div>
       <div class="footer-Fifth-div">
         <div class="footer-heading">
           <h5>COMPANY</h5>
           <button onclick="foot_5()"><i class="bi bi-chevron-down"></i></button>
         </div>
         <div class="footer-content" id="foot5">
-            <p>About us</p>
-            <p>Leadership</p>
-            <p>News</p>
-            <p>Careers</p>
-            <p>Media kit</p> 
-            <p>Slack Shop</p>
+          <p>About us</p>
+          <p>Leadership</p>
+          <p>News</p>
+          <p>Careers</p>
+          <p>Media kit</p>
+          <p>Slack Shop</p>
         </div>
       </div>
       <div>
@@ -733,95 +819,100 @@
         <i class="bi bi-linkedin"></i>
       </div>
       <div class="footer-last-div">
-        <p>©2024 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.</p>
-      </div>
-    </div> 
-</footer>
-<footer class="footer-for-pc">
-  <div class="container">
-    <div class="footer-main-div">
-      <div class="why-slack foot-com">
-        <ul class="list-unstyled ">
-          <li>WHY SLACK?</li>
-          <li>Slack vs email</li>
-          <li>Channels</li>
-          <li>Engagement</li>
-          <li>Scale</li>
-          <li>Watch demo</li>
-        </ul>
-      </div>
-      <div class="Product foot-com">
-        <ul class="list-unstyled ">
-          <li>PRODUCT</li>
-          <li>Features</li>
-          <li>Intergrations</li>
-          <li>Enterprise</li>
-          <li>Solutions</li>
-        </ul>
-      </div>
-      <div class="Pricing foot-com">
-        <ul class="list-unstyled ">
-          <li>PRICING</li>
-          <li>Subscriptions</li>
-          <li>Paid vs free</li>
-        </ul>
-      </div>
-      <div class="Resource foot-com">
-        <ul class="list-unstyled ">
-          <li>RESOURCE</li>
-          <li>Partners</li>
-          <li>Developers</li>
-          <li>Community</li>
-          <li>Apps</li>
-          <li>Blog</li>
-          <li>Help Center</li>
-          <li>Events</li>
-        </ul>
-      </div>
-      <div class="Company foot-com">
-        <ul class="list-unstyled ">
-          <li>COMPANY</li>
-          <li>About us</li>
-          <li>Ledership</li>
-          <li>News</li>
-          <li>Media kit</li>
-          <li>Careers</li>
-          <li>Slack shop</li>
-        </ul>
+        <p>©2024 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their
+          respective owners.</p>
       </div>
     </div>
-    <div>
-      <hr> 
-    </div>
-    <div class="footer-under-div">
-      <div class="footer-under-one">
-        <ul class="list-unstyled ">
-          <li>Status</li>
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Your privacy choices</li>
-          <li>Cookie preferences</li>
-          <li>Contact us</li>
-          <li>Change region</li>
-        </ul>
+  </footer>
+  <footer class="footer-for-pc">
+    <div class="container">
+      <div class="footer-main-div">
+        <div class="why-slack foot-com">
+          <ul class="list-unstyled ">
+            <li>WHY SLACK?</li>
+            <li>Slack vs email</li>
+            <li>Channels</li>
+            <li>Engagement</li>
+            <li>Scale</li>
+            <li>Watch demo</li>
+          </ul>
+        </div>
+        <div class="Product foot-com">
+          <ul class="list-unstyled ">
+            <li>PRODUCT</li>
+            <li>Features</li>
+            <li>Intergrations</li>
+            <li>Enterprise</li>
+            <li>Solutions</li>
+          </ul>
+        </div>
+        <div class="Pricing foot-com">
+          <ul class="list-unstyled ">
+            <li>PRICING</li>
+            <li>Subscriptions</li>
+            <li>Paid vs free</li>
+          </ul>
+        </div>
+        <div class="Resource foot-com">
+          <ul class="list-unstyled ">
+            <li>RESOURCE</li>
+            <li>Partners</li>
+            <li>Developers</li>
+            <li>Community</li>
+            <li>Apps</li>
+            <li>Blog</li>
+            <li>Help Center</li>
+            <li>Events</li>
+          </ul>
+        </div>
+        <div class="Company foot-com">
+          <ul class="list-unstyled ">
+            <li>COMPANY</li>
+            <li>About us</li>
+            <li>Ledership</li>
+            <li>News</li>
+            <li>Media kit</li>
+            <li>Careers</li>
+            <li>Slack shop</li>
+          </ul>
+        </div>
       </div>
-      <div class="footer-under-two">
-        <ul class="list-unstyled ">
-          <li><a href="#">Download Slack</a></li>
-          <li> <i class="bi bi-youtube"></i></li>
-          <li><i class="bi bi-facebook"></i></li>
-          <li><i class="bi bi-linkedin"></i></li>
-          <li><i class="bi bi-twitter-x"></i></li>
-        </ul>
+      <div>
+        <hr>
+      </div>
+      <div class="footer-under-div">
+        <div class="footer-under-one">
+          <ul class="list-unstyled ">
+            <li>Status</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Your privacy choices</li>
+            <li>Cookie preferences</li>
+            <li>Contact us</li>
+            <li>Change region</li>
+          </ul>
+        </div>
+        <div class="footer-under-two">
+          <ul class="list-unstyled ">
+            <li><a href="#">Download Slack</a></li>
+            <li> <i class="bi bi-youtube"></i></li>
+            <li><i class="bi bi-facebook"></i></li>
+            <li><i class="bi bi-linkedin"></i></li>
+            <li><i class="bi bi-twitter-x"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-date">
+        <p>©2024 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their
+          respective owners.</p>
       </div>
     </div>
-    <div class="footer-date">
-      <p>©2024 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.</p>
-    </div>
-  </div>
-</footer>
-    <!-- javascript link -->
-    <script src="./main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </footer>
+  <!-- javascript link -->
+  <script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

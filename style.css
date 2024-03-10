@@ -20,6 +20,10 @@
     color: white!important;
     border-color: #611f69!important;
 }
+.collapse{
+    margin-left: 23rem;
+}
+
 
 /* --connect-section-- */
 .connect-section{
